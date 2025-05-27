@@ -3,7 +3,7 @@
 import { Badge } from "react-bootstrap";
 
 interface PokemonCardCompProps {
-  pokemonTypes: String[];
+  pokemonTypes: string[];
 }
 
 export default function PokemonTypeBadgeComp(props: PokemonCardCompProps) {

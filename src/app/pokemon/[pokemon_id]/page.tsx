@@ -1,68 +1,167 @@
 // Instructs React (Next.js) to run this code on the client side.
 // Next.js by default would render this content on the server side where the application is hosted.
 "use client";
-import Pokemon from "@/model/pokemon";
-import { useEffect, useState } from "react";
-import { Container, Image, Spinner, Row } from "react-bootstrap";
-import PokemonComponent from "./pokemon";
-import PokeNavBar from "@/components/pokeNavBarComp";
 
-// This type is used to get the pokemon id from the url path
-type Params = {
-  params: { pokemon_id: string };
+import Pokemon from "@/model/pokemon"; // Ensure this path is correct
+import { useEffect, useState } from "react";
+import { Container, Image, Spinner} from "react-bootstrap";
+import PokemonComponent from "./pokemon"; // Ensure this path is correct: e.g. "./PokemonComponent" or "@/components/PokemonComponent"
+import PokeNavBar from "@/components/pokeNavBarComp"; // Ensure this path is correct
+
+// Type for the props the Page component receives, reflecting params as a Promise
+type PageOwnProps = {
+  params: Promise<{ pokemon_id: string }>;
+  // searchParams?: Promise<{ [key: string]: string | string[] | undefined }>; // Uncomment if you use searchParams
 };
 
-// Next.js passes the url parts which are defined between square brackets []
-// to the function which renders the page.
+export default function PokemonPage({ params: paramsPromise }: PageOwnProps) {
+  const [pokemonId, setPokemonId] = useState<string | null>(null); // Stores the resolved pokemon_id
+  const [pokemon, setPokemon] = useState<Pokemon | undefined>(undefined);
+  const [isLoadingPokemonId, setIsLoadingPokemonId] = useState(true); // Loading state for resolving the ID
+  const [isLoadingPokemonData, setIsLoadingPokemonData] = useState(false); // Loading state for fetching Pokémon data
 
-// In our case http://localhost:3000/pokemon/2 is the URL.
-// Where the 2 is the [pokemon_id] and passed as a parameter.
-export default function PokemonPage({ params }: Params) {
-  const pokemon_id = params.pokemon_id;
-  //pokemon - A constant state variable which stores the pokemon information and retains the data between renders.
-  //setPokemon - A state setter function to update the variable and trigger React to render the component again.
-  const [pokemon, setPokemon] = useState<Pokemon>();
-  const [isPokemonLoaded, setPokemonLoaded] = useState(false);
-
+  // Effect to resolve pokemon_id from the paramsPromise
   useEffect(() => {
-    const fetchData = async () => {
-      const resp = await fetch("/api/pokemon/" + pokemon_id);
-      if (resp.ok) {
-        const pokemon: Pokemon = await resp.json();
-        console.log(pokemon);
-        setPokemon(pokemon);
+    let isActive = true;
+    setIsLoadingPokemonId(true);
+
+    paramsPromise
+      .then((resolvedParams) => {
+        if (isActive) {
+          setPokemonId(resolvedParams.pokemon_id);
+        }
+      })
+      .catch((error) => {
+        console.error("Error resolving Pokemon ID from params:", error);
+        if (isActive) {
+          setPokemonId(null); // Indicate that ID resolution failed
+        }
+      })
+      .finally(() => {
+        if (isActive) {
+          setIsLoadingPokemonId(false);
+        }
+      });
+
+    return () => {
+      isActive = false; // Cleanup function to prevent state updates on unmounted component
+    };
+  }, [paramsPromise]); // Dependency: re-run if the paramsPromise instance changes
+
+  // Effect to fetch Pokemon data once pokemonId is resolved and available
+  useEffect(() => {
+    // Only proceed if ID resolution is complete and we have a valid pokemonId
+    if (isLoadingPokemonId || !pokemonId) {
+      // If ID is still loading, or if ID resolution finished but pokemonId is null (error)
+      if (!isLoadingPokemonId && !pokemonId) {
+        // ID resolution finished, but no ID was found (error case)
+        setPokemon(undefined);
+        setIsLoadingPokemonData(false); // No data to load
       }
-      setPokemonLoaded(true);
+      return;
+    }
+
+    let isActive = true;
+    setIsLoadingPokemonData(true);
+    setPokemon(undefined); // Reset previous Pokémon data before new fetch
+
+    const fetchData = async () => {
+      try {
+        const resp = await fetch(`/api/pokemon/${pokemonId}`); // Assumes API route at /api/pokemon/[id]
+        if (!isActive) return;
+
+        if (resp.ok) {
+          const pokemonData: Pokemon = await resp.json();
+          setPokemon(pokemonData);
+        } else {
+          console.error(
+            `Failed to fetch Pokémon: ${resp.status} ${resp.statusText}`
+          );
+          setPokemon(undefined);
+        }
+      } catch (error) {
+        console.error("Error fetching Pokémon:", error);
+        if (isActive) {
+          setPokemon(undefined);
+        }
+      } finally {
+        if (isActive) {
+          setIsLoadingPokemonData(false);
+        }
+      }
     };
 
-    fetchData()
-      // Making sure to log errors on the console
-      .catch((error) => {
-        console.error(error);
-        setPokemonLoaded(true);
-      });
-  }, []);
+    fetchData();
 
+    return () => {
+      isActive = false; // Cleanup
+    };
+  }, [pokemonId, isLoadingPokemonId]); // Dependencies: re-run if pokemonId changes or ID loading state finishes
+
+  // Render logic based on loading states
+
+  if (isLoadingPokemonId) {
+    return (
+      <>
+        <PokeNavBar />
+        <Container className="text-center mt-5">
+          <Spinner animation="border" role="status" className="mb-2" />
+          <p>Loading Pokémon details...</p>
+        </Container>
+      </>
+    );
+  }
+
+  // After ID resolution: if no pokemonId was found (e.g., promise rejected or no ID in params)
+  if (!pokemonId) {
+    return (
+      <>
+        <PokeNavBar />
+        <Container className="text-center mt-5">
+          <p>Could not determine the Pokémon ID.</p>
+          <Image
+            alt="error illustration"
+            className="img-fluid mx-auto d-block rounded mt-3"
+            style={{ maxWidth: "300px" }}
+            src="https://cdn.dribbble.com/users/2805817/screenshots/13206178/media/6bd36939f8a01d4480cb1e08147e20f3.png" // Generic error/placeholder
+          />
+        </Container>
+      </>
+    );
+  }
+
+  // If pokemonId is available, but data is still loading
+  if (isLoadingPokemonData) {
+    return (
+      <>
+        <PokeNavBar />
+        <Container className="text-center mt-5">
+          <Spinner animation="border" role="status" className="mb-2" />
+          <p>Loading Pokémon data for ID: {pokemonId}...</p>
+        </Container>
+      </>
+    );
+  }
+
+  // Final display: Data loaded (or fetch attempt finished)
   return (
     <>
-      <PokeNavBar></PokeNavBar>
-      {isPokemonLoaded ? (
-        pokemon ? (
-          <PokemonComponent pokemon={pokemon}></PokemonComponent>
-        ) : (
+      <PokeNavBar />
+      {pokemon ? (
+        <PokemonComponent pokemon={pokemon} />
+      ) : (
+        // This case means loading finished, ID was present, but Pokémon data fetch failed or returned nothing
+        <Container className="text-center mt-5">
+          <p>
+            Pokémon with ID &#39;{pokemonId}&#39; not found or an error occurred while
+            fetching.
+          </p>
           <Image
-            className="img-fluid mx-auto d-block rounded"
+            alt={`Pokémon with ID ${pokemonId} not found`}
+            className="img-fluid mx-auto d-block rounded mt-3"
+            style={{ maxWidth: "300px" }}
             src="https://cdn.dribbble.com/users/2805817/screenshots/13206178/media/6bd36939f8a01d4480cb1e08147e20f3.png"
           />
-        )
-      ) : (
-        <Container>
-          <Row className="justify-content-md-center p-2">
-            <Spinner className="p-2" animation="border" role="status" />
-          </Row>
-          <Row className="justify-content-md-center p-2">
-            Loading Pokémon...
-          </Row>
         </Container>
       )}
     </>
