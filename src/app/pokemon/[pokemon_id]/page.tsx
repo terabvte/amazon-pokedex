@@ -91,7 +91,7 @@ export default function PokemonPage({ params: paramsPromise }: PageOwnProps) {
 
         if (resp.ok) {
           // Assuming pokemons.json contains an array of raw Pokemon objects
-          const allPokemonsRaw: any[] = await resp.json(); // Replace 'any' with RawPokemonFromJson if defined
+          const allPokemonsRaw: Pokemon[] = await resp.json(); // Replace 'any' with RawPokemonFromJson if defined
 
           // Find the specific Pokémon by comparing pokemonIdFromRoute (string)
           // with pokemonNumber (number converted to string) from the JSON data.
@@ -104,7 +104,8 @@ export default function PokemonPage({ params: paramsPromise }: PageOwnProps) {
             // and ensure it matches the 'Pokemon' type.
             const pokemonData: Pokemon = {
               ...foundRawPokemon, // Spread all properties from the raw object
-              id: foundRawPokemon.pokemonNumber.toString(), // Add/overwrite 'id' using pokemonNumber
+              id: foundRawPokemon.pokemonNumber.toString(), // 'id' is the string version of pokemonNumber
+              pokemonNumber: foundRawPokemon.pokemonNumber,
             };
             setPokemon(pokemonData);
           } else {

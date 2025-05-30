@@ -1,5 +1,6 @@
 export default interface Pokemon {
   pokemonNumber: number;
+  id?: string;
   attack: number;
   defense: number;
   devolution: string;

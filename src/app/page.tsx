@@ -3,6 +3,7 @@
 
 import PokemonsComp from "@/components/pokemonsComp"; // Ensure this path is correct
 import PokeNavBar from "@/components/pokeNavBarComp"; // Ensure this path is correct
+import Pokemon from "@/model/pokemon";
 import PokemonCard from "@/model/pokemonCard"; // Ensure this path is correct and PokemonCard type expects an 'id: string'
 import { useEffect, useState } from "react";
 import { Container, Row, Spinner } from "react-bootstrap"; // Assuming react-bootstrap is installed
@@ -35,7 +36,7 @@ export default function Home() {
 
         if (resp.ok) {
           // Assuming pokemons.json directly contains an array of Pokemon objects.
-          const rawPokemonsArray: any[] = await resp.json(); // Or use RawPokemonData[] if defined
+          const rawPokemonsArray: Pokemon[] = await resp.json(); // Or use RawPokemonData[] if defined
 
           // Map the raw data to PokemonCard[], adding the 'id' field from 'pokemonNumber'
           const pokemonsData: PokemonCard[] = rawPokemonsArray.map((p) => ({
