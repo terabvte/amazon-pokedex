@@ -1,41 +1,2843 @@
-{
-    "7": {
-        "pokemonNumber": 7,
-        "attack": 48,
-        "defense": 65,
-        "devolution": "",
+[
+    {
+        "pokemonName": "Squirtle",
         "evolution": "Wartortle",
+        "pokemonNumber": 7,
         "evolutionFamily": [
             "Squirtle",
             "Wartortle",
             "Blastoise"
         ],
-        "healthPoints": 44,
         "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/7/mainImage.png",
-        "pokemonName": "Squirtle",
+        "defense": 65,
+        "speed": 43,
         "pokemonType": [
             "Water"
         ],
-        "speed": 43
+        "attack": 48,
+        "healthPoints": 44,
+        "devolution": ""
     },
-    "2": {
-        "pokemonNumber": 2,
-        "attack": 62,
-        "defense": 63,
-        "devolution": "Bulbasaur",
-        "evolution": "Venusaur",
+    {
+        "pokemonName": "Kangaskhan",
+        "evolution": "",
+        "pokemonNumber": 115,
+        "evolutionFamily": [
+            "Kangaskhan"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/115/mainImage.png",
+        "defense": 80,
+        "speed": 90,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 95,
+        "healthPoints": 105,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Seadra",
+        "evolution": "Kingdra",
+        "pokemonNumber": 117,
+        "evolutionFamily": [
+            "Horsea",
+            "Seadra",
+            "Kingdra"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/117/mainImage.png",
+        "defense": 95,
+        "speed": 85,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 65,
+        "healthPoints": 55,
+        "devolution": "Horsea"
+    },
+    {
+        "pokemonName": "Parasect",
+        "evolution": "",
+        "pokemonNumber": 47,
+        "evolutionFamily": [
+            "Paras",
+            "Parasect"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/47/mainImage.png",
+        "defense": 80,
+        "speed": 30,
+        "pokemonType": [
+            "Bug",
+            "Grass"
+        ],
+        "attack": 95,
+        "healthPoints": 60,
+        "devolution": "Paras"
+    },
+    {
+        "pokemonName": "Mr. Mime",
+        "evolution": "Mr. Rime",
+        "pokemonNumber": 122,
+        "evolutionFamily": [
+            "Mime Jr.",
+            "Mr. Mime",
+            "Mr. Rime"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/122/mainImage.png",
+        "defense": 65,
+        "speed": 90,
+        "pokemonType": [
+            "Psychic",
+            "Fairy"
+        ],
+        "attack": 45,
+        "healthPoints": 40,
+        "devolution": "Mime Jr."
+    },
+    {
+        "pokemonName": "Zapdos",
+        "evolution": "",
+        "pokemonNumber": 145,
+        "evolutionFamily": [
+            "Zapdos"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/145/mainImage.png",
+        "defense": 85,
+        "speed": 100,
+        "pokemonType": [
+            "Electric",
+            "Flying"
+        ],
+        "attack": 90,
+        "healthPoints": 90,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Gyarados",
+        "evolution": "",
+        "pokemonNumber": 130,
+        "evolutionFamily": [
+            "Magikarp",
+            "Gyarados"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/130/mainImage.png",
+        "defense": 79,
+        "speed": 81,
+        "pokemonType": [
+            "Water",
+            "Flying"
+        ],
+        "attack": 125,
+        "healthPoints": 95,
+        "devolution": "Magikarp"
+    },
+    {
+        "pokemonName": "Slowpoke",
+        "evolution": "Slowking",
+        "pokemonNumber": 79,
+        "evolutionFamily": [
+            "Slowpoke",
+            "Slowking"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/79/mainImage.png",
+        "defense": 65,
+        "speed": 15,
+        "pokemonType": [
+            "Water",
+            "Psychic"
+        ],
+        "attack": 65,
+        "healthPoints": 90,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Bellsprout",
+        "evolution": "Weepinbell",
+        "pokemonNumber": 69,
+        "evolutionFamily": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/69/mainImage.png",
+        "defense": 35,
+        "speed": 40,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 75,
+        "healthPoints": 50,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Weezing",
+        "evolution": "",
+        "pokemonNumber": 110,
+        "evolutionFamily": [
+            "Koffing",
+            "Weezing"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/110/mainImage.png",
+        "defense": 120,
+        "speed": 60,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 90,
+        "healthPoints": 65,
+        "devolution": "Koffing"
+    },
+    {
+        "pokemonName": "Wartortle",
+        "evolution": "Blastoise",
+        "pokemonNumber": 8,
+        "evolutionFamily": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/8/mainImage.png",
+        "defense": 80,
+        "speed": 58,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 63,
+        "healthPoints": 59,
+        "devolution": "Squirtle"
+    },
+    {
+        "pokemonName": "Poliwrath",
+        "evolution": "",
+        "pokemonNumber": 62,
+        "evolutionFamily": [
+            "Poliwag",
+            "Poliwhirl",
+            "Poliwrath"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/62/mainImage.png",
+        "defense": 95,
+        "speed": 70,
+        "pokemonType": [
+            "Water",
+            "Fighting"
+        ],
+        "attack": 95,
+        "healthPoints": 90,
+        "devolution": "Poliwhirl"
+    },
+    {
+        "pokemonName": "Psyduck",
+        "evolution": "Golduck",
+        "pokemonNumber": 54,
+        "evolutionFamily": [
+            "Psyduck",
+            "Golduck"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/54/mainImage.png",
+        "defense": 48,
+        "speed": 55,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 52,
+        "healthPoints": 50,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Graveler",
+        "evolution": "Golem",
+        "pokemonNumber": 75,
+        "evolutionFamily": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/75/mainImage.png",
+        "defense": 115,
+        "speed": 35,
+        "pokemonType": [
+            "Rock",
+            "Ground"
+        ],
+        "attack": 95,
+        "healthPoints": 55,
+        "devolution": "Geodude"
+    },
+    {
+        "pokemonName": "Muk",
+        "evolution": "",
+        "pokemonNumber": 89,
+        "evolutionFamily": [
+            "Grimer",
+            "Muk"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/89/mainImage.png",
+        "defense": 75,
+        "speed": 50,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 105,
+        "healthPoints": 105,
+        "devolution": "Grimer"
+    },
+    {
+        "pokemonName": "Nidoran\u2642",
+        "evolution": "Nidorino",
+        "pokemonNumber": 32,
+        "evolutionFamily": [
+            "Nidoran\u2642",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/32/mainImage.png",
+        "defense": 40,
+        "speed": 50,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 57,
+        "healthPoints": 46,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Lapras",
+        "evolution": "",
+        "pokemonNumber": 131,
+        "evolutionFamily": [
+            "Lapras"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/131/mainImage.png",
+        "defense": 80,
+        "speed": 60,
+        "pokemonType": [
+            "Water",
+            "Ice"
+        ],
+        "attack": 85,
+        "healthPoints": 130,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Chansey",
+        "evolution": "Blissey",
+        "pokemonNumber": 113,
+        "evolutionFamily": [
+            "Happiny",
+            "Chansey",
+            "Blissey"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/113/mainImage.png",
+        "defense": 5,
+        "speed": 50,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 5,
+        "healthPoints": 250,
+        "devolution": "Happiny"
+    },
+    {
+        "pokemonName": "Goldeen",
+        "evolution": "Seaking",
+        "pokemonNumber": 118,
+        "evolutionFamily": [
+            "Goldeen",
+            "Seaking"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/118/mainImage.png",
+        "defense": 60,
+        "speed": 63,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 67,
+        "healthPoints": 45,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Jolteon",
+        "evolution": "",
+        "pokemonNumber": 135,
+        "evolutionFamily": [
+            "Eevee",
+            "Jolteon"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/135/mainImage.png",
+        "defense": 60,
+        "speed": 130,
+        "pokemonType": [
+            "Electric"
+        ],
+        "attack": 65,
+        "healthPoints": 65,
+        "devolution": "Eevee"
+    },
+    {
+        "pokemonName": "Mankey",
+        "evolution": "Primeape",
+        "pokemonNumber": 56,
+        "evolutionFamily": [
+            "Mankey",
+            "Primeape"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/56/mainImage.png",
+        "defense": 35,
+        "speed": 70,
+        "pokemonType": [
+            "Fighting"
+        ],
+        "attack": 80,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Cubone",
+        "evolution": "Marowak",
+        "pokemonNumber": 104,
+        "evolutionFamily": [
+            "Cubone",
+            "Marowak"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/104/mainImage.png",
+        "defense": 95,
+        "speed": 35,
+        "pokemonType": [
+            "Ground"
+        ],
+        "attack": 50,
+        "healthPoints": 50,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Omastar",
+        "evolution": "",
+        "pokemonNumber": 139,
+        "evolutionFamily": [
+            "Omanyte",
+            "Omastar"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/139/mainImage.png",
+        "defense": 125,
+        "speed": 55,
+        "pokemonType": [
+            "Rock",
+            "Water"
+        ],
+        "attack": 60,
+        "healthPoints": 70,
+        "devolution": "Omanyte"
+    },
+    {
+        "pokemonName": "Gloom",
+        "evolution": "Bellossom",
+        "pokemonNumber": 44,
+        "evolutionFamily": [
+            "Oddish",
+            "Gloom",
+            "Bellossom"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/44/mainImage.png",
+        "defense": 70,
+        "speed": 40,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 65,
+        "healthPoints": 60,
+        "devolution": "Oddish"
+    },
+    {
+        "pokemonName": "Jigglypuff",
+        "evolution": "Wigglytuff",
+        "pokemonNumber": 39,
+        "evolutionFamily": [
+            "Igglybuff",
+            "Jigglypuff",
+            "Wigglytuff"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/39/mainImage.png",
+        "defense": 20,
+        "speed": 20,
+        "pokemonType": [
+            "Normal",
+            "Fairy"
+        ],
+        "attack": 45,
+        "healthPoints": 115,
+        "devolution": "Igglybuff"
+    },
+    {
+        "pokemonName": "Caterpie",
+        "evolution": "Metapod",
+        "pokemonNumber": 10,
+        "evolutionFamily": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/10/mainImage.png",
+        "defense": 35,
+        "speed": 45,
+        "pokemonType": [
+            "Bug"
+        ],
+        "attack": 30,
+        "healthPoints": 45,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Magneton",
+        "evolution": "Magnezone",
+        "pokemonNumber": 82,
+        "evolutionFamily": [
+            "Magnemite",
+            "Magneton",
+            "Magnezone"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/82/mainImage.png",
+        "defense": 95,
+        "speed": 70,
+        "pokemonType": [
+            "Electric",
+            "Steel"
+        ],
+        "attack": 60,
+        "healthPoints": 50,
+        "devolution": "Magnemite"
+    },
+    {
+        "pokemonName": "Nidoqueen",
+        "evolution": "",
+        "pokemonNumber": 31,
+        "evolutionFamily": [
+            "Nidoran\u2640",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/31/mainImage.png",
+        "defense": 87,
+        "speed": 76,
+        "pokemonType": [
+            "Poison",
+            "Ground"
+        ],
+        "attack": 92,
+        "healthPoints": 90,
+        "devolution": "Nidorina"
+    },
+    {
+        "pokemonName": "Growlithe",
+        "evolution": "Arcanine",
+        "pokemonNumber": 58,
+        "evolutionFamily": [
+            "Growlithe",
+            "Arcanine"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/58/mainImage.png",
+        "defense": 45,
+        "speed": 60,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 70,
+        "healthPoints": 55,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Venusaur",
+        "evolution": "",
+        "pokemonNumber": 3,
         "evolutionFamily": [
             "Bulbasaur",
             "Ivysaur",
             "Venusaur"
         ],
-        "healthPoints": 60,
-        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/2/mainImage.png",
-        "pokemonName": "Ivysaur",
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/3/mainImage.png",
+        "defense": 83,
+        "speed": 80,
         "pokemonType": [
             "Grass",
             "Poison"
         ],
-        "speed": 60
+        "attack": 82,
+        "healthPoints": 80,
+        "devolution": "Ivysaur"
+    },
+    {
+        "pokemonName": "Alakazam",
+        "evolution": "",
+        "pokemonNumber": 65,
+        "evolutionFamily": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/65/mainImage.png",
+        "defense": 45,
+        "speed": 120,
+        "pokemonType": [
+            "Psychic"
+        ],
+        "attack": 50,
+        "healthPoints": 55,
+        "devolution": "Kadabra"
+    },
+    {
+        "pokemonName": "Ditto",
+        "evolution": "",
+        "pokemonNumber": 132,
+        "evolutionFamily": [
+            "Ditto"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/132/mainImage.png",
+        "defense": 48,
+        "speed": 48,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 48,
+        "healthPoints": 48,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Ninetales",
+        "evolution": "",
+        "pokemonNumber": 38,
+        "evolutionFamily": [
+            "Vulpix",
+            "Ninetales"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/38/mainImage.png",
+        "defense": 75,
+        "speed": 100,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 76,
+        "healthPoints": 73,
+        "devolution": "Vulpix"
+    },
+    {
+        "pokemonName": "Drowzee",
+        "evolution": "Hypno",
+        "pokemonNumber": 96,
+        "evolutionFamily": [
+            "Drowzee",
+            "Hypno"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/96/mainImage.png",
+        "defense": 45,
+        "speed": 42,
+        "pokemonType": [
+            "Psychic"
+        ],
+        "attack": 48,
+        "healthPoints": 60,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Scyther",
+        "evolution": "Kleavor",
+        "pokemonNumber": 123,
+        "evolutionFamily": [
+            "Scyther",
+            "Kleavor"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/123/mainImage.png",
+        "defense": 80,
+        "speed": 105,
+        "pokemonType": [
+            "Bug",
+            "Flying"
+        ],
+        "attack": 110,
+        "healthPoints": 70,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Mew",
+        "evolution": "",
+        "pokemonNumber": 151,
+        "evolutionFamily": [
+            "Mew"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/151/mainImage.png",
+        "defense": 100,
+        "speed": 100,
+        "pokemonType": [
+            "Psychic"
+        ],
+        "attack": 100,
+        "healthPoints": 100,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Magnemite",
+        "evolution": "Magneton",
+        "pokemonNumber": 81,
+        "evolutionFamily": [
+            "Magnemite",
+            "Magneton",
+            "Magnezone"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/81/mainImage.png",
+        "defense": 70,
+        "speed": 45,
+        "pokemonType": [
+            "Electric",
+            "Steel"
+        ],
+        "attack": 35,
+        "healthPoints": 25,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Ivysaur",
+        "evolution": "Venusaur",
+        "pokemonNumber": 2,
+        "evolutionFamily": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/2/mainImage.png",
+        "defense": 63,
+        "speed": 60,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 62,
+        "healthPoints": 60,
+        "devolution": "Bulbasaur"
+    },
+    {
+        "pokemonName": "Staryu",
+        "evolution": "Starmie",
+        "pokemonNumber": 120,
+        "evolutionFamily": [
+            "Staryu",
+            "Starmie"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/120/mainImage.png",
+        "defense": 55,
+        "speed": 85,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 45,
+        "healthPoints": 30,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Spearow",
+        "evolution": "Fearow",
+        "pokemonNumber": 21,
+        "evolutionFamily": [
+            "Spearow",
+            "Fearow"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/21/mainImage.png",
+        "defense": 30,
+        "speed": 70,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 60,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Wigglytuff",
+        "evolution": "",
+        "pokemonNumber": 40,
+        "evolutionFamily": [
+            "Igglybuff",
+            "Jigglypuff",
+            "Wigglytuff"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/40/mainImage.png",
+        "defense": 45,
+        "speed": 45,
+        "pokemonType": [
+            "Normal",
+            "Fairy"
+        ],
+        "attack": 70,
+        "healthPoints": 140,
+        "devolution": "Jigglypuff"
+    },
+    {
+        "pokemonName": "Kakuna",
+        "evolution": "Beedrill",
+        "pokemonNumber": 14,
+        "evolutionFamily": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/14/mainImage.png",
+        "defense": 50,
+        "speed": 35,
+        "pokemonType": [
+            "Bug",
+            "Poison"
+        ],
+        "attack": 25,
+        "healthPoints": 45,
+        "devolution": "Weedle"
+    },
+    {
+        "pokemonName": "Golduck",
+        "evolution": "",
+        "pokemonNumber": 55,
+        "evolutionFamily": [
+            "Psyduck",
+            "Golduck"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/55/mainImage.png",
+        "defense": 78,
+        "speed": 85,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 82,
+        "healthPoints": 80,
+        "devolution": "Psyduck"
+    },
+    {
+        "pokemonName": "Pidgeot",
+        "evolution": "",
+        "pokemonNumber": 18,
+        "evolutionFamily": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/18/mainImage.png",
+        "defense": 75,
+        "speed": 101,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 80,
+        "healthPoints": 83,
+        "devolution": "Pidgeotto"
+    },
+    {
+        "pokemonName": "Voltorb",
+        "evolution": "Electrode",
+        "pokemonNumber": 100,
+        "evolutionFamily": [
+            "Voltorb",
+            "Electrode"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/100/mainImage.png",
+        "defense": 50,
+        "speed": 100,
+        "pokemonType": [
+            "Electric"
+        ],
+        "attack": 30,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Omanyte",
+        "evolution": "Omastar",
+        "pokemonNumber": 138,
+        "evolutionFamily": [
+            "Omanyte",
+            "Omastar"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/138/mainImage.png",
+        "defense": 100,
+        "speed": 35,
+        "pokemonType": [
+            "Rock",
+            "Water"
+        ],
+        "attack": 40,
+        "healthPoints": 35,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Lickitung",
+        "evolution": "Lickilicky",
+        "pokemonNumber": 108,
+        "evolutionFamily": [
+            "Lickitung",
+            "Lickilicky"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/108/mainImage.png",
+        "defense": 75,
+        "speed": 30,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 55,
+        "healthPoints": 90,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Tauros",
+        "evolution": "",
+        "pokemonNumber": 128,
+        "evolutionFamily": [
+            "Tauros"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/128/mainImage.png",
+        "defense": 95,
+        "speed": 110,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 100,
+        "healthPoints": 75,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Krabby",
+        "evolution": "Kingler",
+        "pokemonNumber": 98,
+        "evolutionFamily": [
+            "Krabby",
+            "Kingler"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/98/mainImage.png",
+        "defense": 90,
+        "speed": 50,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 105,
+        "healthPoints": 30,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Dodrio",
+        "evolution": "",
+        "pokemonNumber": 85,
+        "evolutionFamily": [
+            "Doduo",
+            "Dodrio"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/85/mainImage.png",
+        "defense": 70,
+        "speed": 110,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 110,
+        "healthPoints": 60,
+        "devolution": "Doduo"
+    },
+    {
+        "pokemonName": "Onix",
+        "evolution": "Steelix",
+        "pokemonNumber": 95,
+        "evolutionFamily": [
+            "Onix",
+            "Steelix"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/95/mainImage.png",
+        "defense": 160,
+        "speed": 70,
+        "pokemonType": [
+            "Rock",
+            "Ground"
+        ],
+        "attack": 45,
+        "healthPoints": 35,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Jynx",
+        "evolution": "",
+        "pokemonNumber": 124,
+        "evolutionFamily": [
+            "Smoochum",
+            "Jynx"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/124/mainImage.png",
+        "defense": 35,
+        "speed": 95,
+        "pokemonType": [
+            "Ice",
+            "Psychic"
+        ],
+        "attack": 50,
+        "healthPoints": 65,
+        "devolution": "Smoochum"
+    },
+    {
+        "pokemonName": "Aerodactyl",
+        "evolution": "",
+        "pokemonNumber": 142,
+        "evolutionFamily": [
+            "Aerodactyl"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/142/mainImage.png",
+        "defense": 65,
+        "speed": 130,
+        "pokemonType": [
+            "Rock",
+            "Flying"
+        ],
+        "attack": 105,
+        "healthPoints": 80,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Pikachu",
+        "evolution": "Raichu",
+        "pokemonNumber": 25,
+        "evolutionFamily": [
+            "Pichu",
+            "Pikachu",
+            "Raichu"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/25/mainImage.png",
+        "defense": 40,
+        "speed": 90,
+        "pokemonType": [
+            "Electric"
+        ],
+        "attack": 55,
+        "healthPoints": 35,
+        "devolution": "Pichu"
+    },
+    {
+        "pokemonName": "Butterfree",
+        "evolution": "",
+        "pokemonNumber": 12,
+        "evolutionFamily": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/12/mainImage.png",
+        "defense": 50,
+        "speed": 70,
+        "pokemonType": [
+            "Bug",
+            "Flying"
+        ],
+        "attack": 45,
+        "healthPoints": 60,
+        "devolution": "Metapod"
+    },
+    {
+        "pokemonName": "Blastoise",
+        "evolution": "",
+        "pokemonNumber": 9,
+        "evolutionFamily": [
+            "Squirtle",
+            "Wartortle",
+            "Blastoise"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/9/mainImage.png",
+        "defense": 100,
+        "speed": 78,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 83,
+        "healthPoints": 79,
+        "devolution": "Wartortle"
+    },
+    {
+        "pokemonName": "Persian",
+        "evolution": "",
+        "pokemonNumber": 53,
+        "evolutionFamily": [
+            "Meowth",
+            "Persian"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/53/mainImage.png",
+        "defense": 60,
+        "speed": 115,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 70,
+        "healthPoints": 65,
+        "devolution": "Meowth"
+    },
+    {
+        "pokemonName": "Hypno",
+        "evolution": "",
+        "pokemonNumber": 97,
+        "evolutionFamily": [
+            "Drowzee",
+            "Hypno"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/97/mainImage.png",
+        "defense": 70,
+        "speed": 67,
+        "pokemonType": [
+            "Psychic"
+        ],
+        "attack": 73,
+        "healthPoints": 85,
+        "devolution": "Drowzee"
+    },
+    {
+        "pokemonName": "Meowth",
+        "evolution": "Perrserker",
+        "pokemonNumber": 52,
+        "evolutionFamily": [
+            "Meowth",
+            "Perrserker"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/52/mainImage.png",
+        "defense": 35,
+        "speed": 90,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 45,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Sandshrew",
+        "evolution": "Sandslash",
+        "pokemonNumber": 27,
+        "evolutionFamily": [
+            "Sandshrew",
+            "Sandslash"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/27/mainImage.png",
+        "defense": 85,
+        "speed": 40,
+        "pokemonType": [
+            "Ground"
+        ],
+        "attack": 75,
+        "healthPoints": 50,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Charmander",
+        "evolution": "Charmeleon",
+        "pokemonNumber": 4,
+        "evolutionFamily": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/4/mainImage.png",
+        "defense": 43,
+        "speed": 65,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 52,
+        "healthPoints": 39,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Rhyhorn",
+        "evolution": "Rhydon",
+        "pokemonNumber": 111,
+        "evolutionFamily": [
+            "Rhyhorn",
+            "Rhydon",
+            "Rhyperior"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/111/mainImage.png",
+        "defense": 95,
+        "speed": 25,
+        "pokemonType": [
+            "Ground",
+            "Rock"
+        ],
+        "attack": 85,
+        "healthPoints": 80,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Raichu",
+        "evolution": "",
+        "pokemonNumber": 26,
+        "evolutionFamily": [
+            "Pichu",
+            "Pikachu",
+            "Raichu"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/26/mainImage.png",
+        "defense": 55,
+        "speed": 110,
+        "pokemonType": [
+            "Electric"
+        ],
+        "attack": 90,
+        "healthPoints": 60,
+        "devolution": "Pikachu"
+    },
+    {
+        "pokemonName": "Weedle",
+        "evolution": "Kakuna",
+        "pokemonNumber": 13,
+        "evolutionFamily": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/13/mainImage.png",
+        "defense": 30,
+        "speed": 50,
+        "pokemonType": [
+            "Bug",
+            "Poison"
+        ],
+        "attack": 35,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Pinsir",
+        "evolution": "",
+        "pokemonNumber": 127,
+        "evolutionFamily": [
+            "Pinsir"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/127/mainImage.png",
+        "defense": 100,
+        "speed": 85,
+        "pokemonType": [
+            "Bug"
+        ],
+        "attack": 125,
+        "healthPoints": 65,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Seaking",
+        "evolution": "",
+        "pokemonNumber": 119,
+        "evolutionFamily": [
+            "Goldeen",
+            "Seaking"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/119/mainImage.png",
+        "defense": 65,
+        "speed": 68,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 92,
+        "healthPoints": 80,
+        "devolution": "Goldeen"
+    },
+    {
+        "pokemonName": "Pidgey",
+        "evolution": "Pidgeotto",
+        "pokemonNumber": 16,
+        "evolutionFamily": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/16/mainImage.png",
+        "defense": 40,
+        "speed": 56,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 45,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Seel",
+        "evolution": "Dewgong",
+        "pokemonNumber": 86,
+        "evolutionFamily": [
+            "Seel",
+            "Dewgong"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/86/mainImage.png",
+        "defense": 55,
+        "speed": 45,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 45,
+        "healthPoints": 65,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Slowbro",
+        "evolution": "",
+        "pokemonNumber": 80,
+        "evolutionFamily": [
+            "Slowpoke",
+            "Slowbro"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/80/mainImage.png",
+        "defense": 110,
+        "speed": 30,
+        "pokemonType": [
+            "Water",
+            "Psychic"
+        ],
+        "attack": 75,
+        "healthPoints": 95,
+        "devolution": "Slowpoke"
+    },
+    {
+        "pokemonName": "Dragonite",
+        "evolution": "",
+        "pokemonNumber": 149,
+        "evolutionFamily": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/149/mainImage.png",
+        "defense": 95,
+        "speed": 80,
+        "pokemonType": [
+            "Dragon",
+            "Flying"
+        ],
+        "attack": 134,
+        "healthPoints": 91,
+        "devolution": "Dragonair"
+    },
+    {
+        "pokemonName": "Tentacool",
+        "evolution": "Tentacruel",
+        "pokemonNumber": 72,
+        "evolutionFamily": [
+            "Tentacool",
+            "Tentacruel"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/72/mainImage.png",
+        "defense": 35,
+        "speed": 70,
+        "pokemonType": [
+            "Water",
+            "Poison"
+        ],
+        "attack": 40,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Golem",
+        "evolution": "",
+        "pokemonNumber": 76,
+        "evolutionFamily": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/76/mainImage.png",
+        "defense": 130,
+        "speed": 45,
+        "pokemonType": [
+            "Rock",
+            "Ground"
+        ],
+        "attack": 120,
+        "healthPoints": 80,
+        "devolution": "Graveler"
+    },
+    {
+        "pokemonName": "Snorlax",
+        "evolution": "",
+        "pokemonNumber": 143,
+        "evolutionFamily": [
+            "Munchlax",
+            "Snorlax"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/143/mainImage.png",
+        "defense": 65,
+        "speed": 30,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 110,
+        "healthPoints": 160,
+        "devolution": "Munchlax"
+    },
+    {
+        "pokemonName": "Mewtwo",
+        "evolution": "",
+        "pokemonNumber": 150,
+        "evolutionFamily": [
+            "Mewtwo"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/150/mainImage.png",
+        "defense": 90,
+        "speed": 130,
+        "pokemonType": [
+            "Psychic"
+        ],
+        "attack": 110,
+        "healthPoints": 106,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Haunter",
+        "evolution": "Gengar",
+        "pokemonNumber": 93,
+        "evolutionFamily": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/93/mainImage.png",
+        "defense": 45,
+        "speed": 95,
+        "pokemonType": [
+            "Ghost",
+            "Poison"
+        ],
+        "attack": 50,
+        "healthPoints": 45,
+        "devolution": "Gastly"
+    },
+    {
+        "pokemonName": "Vileplume",
+        "evolution": "",
+        "pokemonNumber": 45,
+        "evolutionFamily": [
+            "Oddish",
+            "Gloom",
+            "Vileplume"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/45/mainImage.png",
+        "defense": 85,
+        "speed": 50,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 80,
+        "healthPoints": 75,
+        "devolution": "Gloom"
+    },
+    {
+        "pokemonName": "Zubat",
+        "evolution": "Golbat",
+        "pokemonNumber": 41,
+        "evolutionFamily": [
+            "Zubat",
+            "Golbat",
+            "Crobat"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/41/mainImage.png",
+        "defense": 35,
+        "speed": 55,
+        "pokemonType": [
+            "Poison",
+            "Flying"
+        ],
+        "attack": 45,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Dragonair",
+        "evolution": "Dragonite",
+        "pokemonNumber": 148,
+        "evolutionFamily": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/148/mainImage.png",
+        "defense": 65,
+        "speed": 70,
+        "pokemonType": [
+            "Dragon"
+        ],
+        "attack": 84,
+        "healthPoints": 61,
+        "devolution": "Dratini"
+    },
+    {
+        "pokemonName": "Pidgeotto",
+        "evolution": "Pidgeot",
+        "pokemonNumber": 17,
+        "evolutionFamily": [
+            "Pidgey",
+            "Pidgeotto",
+            "Pidgeot"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/17/mainImage.png",
+        "defense": 55,
+        "speed": 71,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 60,
+        "healthPoints": 63,
+        "devolution": "Pidgey"
+    },
+    {
+        "pokemonName": "Flareon",
+        "evolution": "",
+        "pokemonNumber": 136,
+        "evolutionFamily": [
+            "Eevee",
+            "Flareon"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/136/mainImage.png",
+        "defense": 60,
+        "speed": 65,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 130,
+        "healthPoints": 65,
+        "devolution": "Eevee"
+    },
+    {
+        "pokemonName": "Eevee",
+        "evolution": "Sylveon",
+        "pokemonNumber": 133,
+        "evolutionFamily": [
+            "Eevee",
+            "Sylveon"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/133/mainImage.png",
+        "defense": 50,
+        "speed": 55,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 55,
+        "healthPoints": 55,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Charizard",
+        "evolution": "",
+        "pokemonNumber": 6,
+        "evolutionFamily": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/6/mainImage.png",
+        "defense": 78,
+        "speed": 100,
+        "pokemonType": [
+            "Fire",
+            "Flying"
+        ],
+        "attack": 84,
+        "healthPoints": 78,
+        "devolution": "Charmeleon"
+    },
+    {
+        "pokemonName": "Machop",
+        "evolution": "Machoke",
+        "pokemonNumber": 66,
+        "evolutionFamily": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/66/mainImage.png",
+        "defense": 50,
+        "speed": 35,
+        "pokemonType": [
+            "Fighting"
+        ],
+        "attack": 80,
+        "healthPoints": 70,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Abra",
+        "evolution": "Kadabra",
+        "pokemonNumber": 63,
+        "evolutionFamily": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/63/mainImage.png",
+        "defense": 15,
+        "speed": 90,
+        "pokemonType": [
+            "Psychic"
+        ],
+        "attack": 20,
+        "healthPoints": 25,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Paras",
+        "evolution": "Parasect",
+        "pokemonNumber": 46,
+        "evolutionFamily": [
+            "Paras",
+            "Parasect"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/46/mainImage.png",
+        "defense": 55,
+        "speed": 25,
+        "pokemonType": [
+            "Bug",
+            "Grass"
+        ],
+        "attack": 70,
+        "healthPoints": 35,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Diglett",
+        "evolution": "Dugtrio",
+        "pokemonNumber": 50,
+        "evolutionFamily": [
+            "Diglett",
+            "Dugtrio"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/50/mainImage.png",
+        "defense": 25,
+        "speed": 95,
+        "pokemonType": [
+            "Ground"
+        ],
+        "attack": 55,
+        "healthPoints": 10,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Clefable",
+        "evolution": "",
+        "pokemonNumber": 36,
+        "evolutionFamily": [
+            "Cleffa",
+            "Clefairy",
+            "Clefable"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/36/mainImage.png",
+        "defense": 73,
+        "speed": 60,
+        "pokemonType": [
+            "Fairy"
+        ],
+        "attack": 70,
+        "healthPoints": 95,
+        "devolution": "Clefairy"
+    },
+    {
+        "pokemonName": "Arcanine",
+        "evolution": "",
+        "pokemonNumber": 59,
+        "evolutionFamily": [
+            "Growlithe",
+            "Arcanine"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/59/mainImage.png",
+        "defense": 80,
+        "speed": 95,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 110,
+        "healthPoints": 90,
+        "devolution": "Growlithe"
+    },
+    {
+        "pokemonName": "Porygon",
+        "evolution": "Porygon2",
+        "pokemonNumber": 137,
+        "evolutionFamily": [
+            "Porygon",
+            "Porygon2",
+            "Porygon Z"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/137/mainImage.png",
+        "defense": 70,
+        "speed": 40,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 60,
+        "healthPoints": 65,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Victreebel",
+        "evolution": "",
+        "pokemonNumber": 71,
+        "evolutionFamily": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/71/mainImage.png",
+        "defense": 65,
+        "speed": 70,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 105,
+        "healthPoints": 80,
+        "devolution": "Weepinbell"
+    },
+    {
+        "pokemonName": "Raticate",
+        "evolution": "",
+        "pokemonNumber": 20,
+        "evolutionFamily": [
+            "Rattata",
+            "Raticate"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/20/mainImage.png",
+        "defense": 60,
+        "speed": 97,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 81,
+        "healthPoints": 55,
+        "devolution": "Rattata"
+    },
+    {
+        "pokemonName": "Rattata",
+        "evolution": "Raticate",
+        "pokemonNumber": 19,
+        "evolutionFamily": [
+            "Rattata",
+            "Raticate"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/19/mainImage.png",
+        "defense": 35,
+        "speed": 72,
+        "pokemonType": [
+            "Normal"
+        ],
+        "attack": 56,
+        "healthPoints": 30,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Kabutops",
+        "evolution": "",
+        "pokemonNumber": 141,
+        "evolutionFamily": [
+            "Kabuto",
+            "Kabutops"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/141/mainImage.png",
+        "defense": 105,
+        "speed": 80,
+        "pokemonType": [
+            "Rock",
+            "Water"
+        ],
+        "attack": 115,
+        "healthPoints": 60,
+        "devolution": "Kabuto"
+    },
+    {
+        "pokemonName": "Tentacruel",
+        "evolution": "",
+        "pokemonNumber": 73,
+        "evolutionFamily": [
+            "Tentacool",
+            "Tentacruel"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/73/mainImage.png",
+        "defense": 65,
+        "speed": 100,
+        "pokemonType": [
+            "Water",
+            "Poison"
+        ],
+        "attack": 70,
+        "healthPoints": 80,
+        "devolution": "Tentacool"
+    },
+    {
+        "pokemonName": "Exeggcute",
+        "evolution": "Exeggutor",
+        "pokemonNumber": 102,
+        "evolutionFamily": [
+            "Exeggcute",
+            "Exeggutor"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/102/mainImage.png",
+        "defense": 80,
+        "speed": 40,
+        "pokemonType": [
+            "Grass",
+            "Psychic"
+        ],
+        "attack": 40,
+        "healthPoints": 60,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Exeggutor",
+        "evolution": "",
+        "pokemonNumber": 103,
+        "evolutionFamily": [
+            "Exeggcute",
+            "Exeggutor"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/103/mainImage.png",
+        "defense": 85,
+        "speed": 55,
+        "pokemonType": [
+            "Grass",
+            "Psychic"
+        ],
+        "attack": 95,
+        "healthPoints": 95,
+        "devolution": "Exeggcute"
+    },
+    {
+        "pokemonName": "Hitmonlee",
+        "evolution": "",
+        "pokemonNumber": 106,
+        "evolutionFamily": [
+            "Tyrogue",
+            "Hitmonlee"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/106/mainImage.png",
+        "defense": 53,
+        "speed": 87,
+        "pokemonType": [
+            "Fighting"
+        ],
+        "attack": 120,
+        "healthPoints": 50,
+        "devolution": "Tyrogue"
+    },
+    {
+        "pokemonName": "Grimer",
+        "evolution": "Muk",
+        "pokemonNumber": 88,
+        "evolutionFamily": [
+            "Grimer",
+            "Muk"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/88/mainImage.png",
+        "defense": 50,
+        "speed": 25,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 80,
+        "healthPoints": 80,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Electabuzz",
+        "evolution": "Electivire",
+        "pokemonNumber": 125,
+        "evolutionFamily": [
+            "Elekid",
+            "Electabuzz",
+            "Electivire"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/125/mainImage.png",
+        "defense": 57,
+        "speed": 105,
+        "pokemonType": [
+            "Electric"
+        ],
+        "attack": 83,
+        "healthPoints": 65,
+        "devolution": "Elekid"
+    },
+    {
+        "pokemonName": "Rapidash",
+        "evolution": "",
+        "pokemonNumber": 78,
+        "evolutionFamily": [
+            "Ponyta",
+            "Rapidash"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/78/mainImage.png",
+        "defense": 70,
+        "speed": 105,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 100,
+        "healthPoints": 65,
+        "devolution": "Ponyta"
+    },
+    {
+        "pokemonName": "Poliwhirl",
+        "evolution": "Politoed",
+        "pokemonNumber": 61,
+        "evolutionFamily": [
+            "Poliwag",
+            "Poliwhirl",
+            "Politoed"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/61/mainImage.png",
+        "defense": 65,
+        "speed": 90,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 65,
+        "healthPoints": 65,
+        "devolution": "Poliwag"
+    },
+    {
+        "pokemonName": "Vaporeon",
+        "evolution": "",
+        "pokemonNumber": 134,
+        "evolutionFamily": [
+            "Eevee",
+            "Vaporeon"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/134/mainImage.png",
+        "defense": 60,
+        "speed": 65,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 65,
+        "healthPoints": 130,
+        "devolution": "Eevee"
+    },
+    {
+        "pokemonName": "Nidorino",
+        "evolution": "Nidoking",
+        "pokemonNumber": 33,
+        "evolutionFamily": [
+            "Nidoran\u2642",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/33/mainImage.png",
+        "defense": 57,
+        "speed": 65,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 72,
+        "healthPoints": 61,
+        "devolution": "Nidoran\u2642"
+    },
+    {
+        "pokemonName": "Nidoking",
+        "evolution": "",
+        "pokemonNumber": 34,
+        "evolutionFamily": [
+            "Nidoran\u2642",
+            "Nidorino",
+            "Nidoking"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/34/mainImage.png",
+        "defense": 77,
+        "speed": 85,
+        "pokemonType": [
+            "Poison",
+            "Ground"
+        ],
+        "attack": 102,
+        "healthPoints": 81,
+        "devolution": "Nidorino"
+    },
+    {
+        "pokemonName": "Clefairy",
+        "evolution": "Clefable",
+        "pokemonNumber": 35,
+        "evolutionFamily": [
+            "Cleffa",
+            "Clefairy",
+            "Clefable"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/35/mainImage.png",
+        "defense": 48,
+        "speed": 35,
+        "pokemonType": [
+            "Fairy"
+        ],
+        "attack": 45,
+        "healthPoints": 70,
+        "devolution": "Cleffa"
+    },
+    {
+        "pokemonName": "Tangela",
+        "evolution": "Tangrowth",
+        "pokemonNumber": 114,
+        "evolutionFamily": [
+            "Tangela",
+            "Tangrowth"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/114/mainImage.png",
+        "defense": 115,
+        "speed": 60,
+        "pokemonType": [
+            "Grass"
+        ],
+        "attack": 55,
+        "healthPoints": 65,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Golbat",
+        "evolution": "Crobat",
+        "pokemonNumber": 42,
+        "evolutionFamily": [
+            "Zubat",
+            "Golbat",
+            "Crobat"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/42/mainImage.png",
+        "defense": 70,
+        "speed": 90,
+        "pokemonType": [
+            "Poison",
+            "Flying"
+        ],
+        "attack": 80,
+        "healthPoints": 75,
+        "devolution": "Zubat"
+    },
+    {
+        "pokemonName": "Bulbasaur",
+        "evolution": "Ivysaur",
+        "pokemonNumber": 1,
+        "evolutionFamily": [
+            "Bulbasaur",
+            "Ivysaur",
+            "Venusaur"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/1/mainImage.png",
+        "defense": 49,
+        "speed": 45,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 49,
+        "healthPoints": 45,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Ponyta",
+        "evolution": "Rapidash",
+        "pokemonNumber": 77,
+        "evolutionFamily": [
+            "Ponyta",
+            "Rapidash"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/77/mainImage.png",
+        "defense": 55,
+        "speed": 90,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 85,
+        "healthPoints": 50,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Venomoth",
+        "evolution": "",
+        "pokemonNumber": 49,
+        "evolutionFamily": [
+            "Venonat",
+            "Venomoth"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/49/mainImage.png",
+        "defense": 60,
+        "speed": 90,
+        "pokemonType": [
+            "Bug",
+            "Poison"
+        ],
+        "attack": 65,
+        "healthPoints": 70,
+        "devolution": "Venonat"
+    },
+    {
+        "pokemonName": "Marowak",
+        "evolution": "",
+        "pokemonNumber": 105,
+        "evolutionFamily": [
+            "Cubone",
+            "Marowak"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/105/mainImage.png",
+        "defense": 110,
+        "speed": 45,
+        "pokemonType": [
+            "Ground"
+        ],
+        "attack": 80,
+        "healthPoints": 60,
+        "devolution": "Cubone"
+    },
+    {
+        "pokemonName": "Vulpix",
+        "evolution": "Ninetales",
+        "pokemonNumber": 37,
+        "evolutionFamily": [
+            "Vulpix",
+            "Ninetales"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/37/mainImage.png",
+        "defense": 40,
+        "speed": 65,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 41,
+        "healthPoints": 38,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Dratini",
+        "evolution": "Dragonair",
+        "pokemonNumber": 147,
+        "evolutionFamily": [
+            "Dratini",
+            "Dragonair",
+            "Dragonite"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/147/mainImage.png",
+        "defense": 45,
+        "speed": 50,
+        "pokemonType": [
+            "Dragon"
+        ],
+        "attack": 64,
+        "healthPoints": 41,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Starmie",
+        "evolution": "",
+        "pokemonNumber": 121,
+        "evolutionFamily": [
+            "Staryu",
+            "Starmie"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/121/mainImage.png",
+        "defense": 85,
+        "speed": 115,
+        "pokemonType": [
+            "Water",
+            "Psychic"
+        ],
+        "attack": 75,
+        "healthPoints": 60,
+        "devolution": "Staryu"
+    },
+    {
+        "pokemonName": "Gastly",
+        "evolution": "Haunter",
+        "pokemonNumber": 92,
+        "evolutionFamily": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/92/mainImage.png",
+        "defense": 30,
+        "speed": 80,
+        "pokemonType": [
+            "Ghost",
+            "Poison"
+        ],
+        "attack": 35,
+        "healthPoints": 30,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Electrode",
+        "evolution": "",
+        "pokemonNumber": 101,
+        "evolutionFamily": [
+            "Voltorb",
+            "Electrode"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/101/mainImage.png",
+        "defense": 70,
+        "speed": 150,
+        "pokemonType": [
+            "Electric"
+        ],
+        "attack": 50,
+        "healthPoints": 60,
+        "devolution": "Voltorb"
+    },
+    {
+        "pokemonName": "Dugtrio",
+        "evolution": "",
+        "pokemonNumber": 51,
+        "evolutionFamily": [
+            "Diglett",
+            "Dugtrio"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/51/mainImage.png",
+        "defense": 50,
+        "speed": 120,
+        "pokemonType": [
+            "Ground"
+        ],
+        "attack": 100,
+        "healthPoints": 35,
+        "devolution": "Diglett"
+    },
+    {
+        "pokemonName": "Koffing",
+        "evolution": "Weezing",
+        "pokemonNumber": 109,
+        "evolutionFamily": [
+            "Koffing",
+            "Weezing"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/109/mainImage.png",
+        "defense": 95,
+        "speed": 35,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 65,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Rhydon",
+        "evolution": "Rhyperior",
+        "pokemonNumber": 112,
+        "evolutionFamily": [
+            "Rhyhorn",
+            "Rhydon",
+            "Rhyperior"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/112/mainImage.png",
+        "defense": 120,
+        "speed": 40,
+        "pokemonType": [
+            "Ground",
+            "Rock"
+        ],
+        "attack": 130,
+        "healthPoints": 105,
+        "devolution": "Rhyhorn"
+    },
+    {
+        "pokemonName": "Articuno",
+        "evolution": "",
+        "pokemonNumber": 144,
+        "evolutionFamily": [
+            "Articuno"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/144/mainImage.png",
+        "defense": 100,
+        "speed": 85,
+        "pokemonType": [
+            "Ice",
+            "Flying"
+        ],
+        "attack": 85,
+        "healthPoints": 90,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Kadabra",
+        "evolution": "Alakazam",
+        "pokemonNumber": 64,
+        "evolutionFamily": [
+            "Abra",
+            "Kadabra",
+            "Alakazam"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/64/mainImage.png",
+        "defense": 30,
+        "speed": 105,
+        "pokemonType": [
+            "Psychic"
+        ],
+        "attack": 35,
+        "healthPoints": 40,
+        "devolution": "Abra"
+    },
+    {
+        "pokemonName": "Dewgong",
+        "evolution": "",
+        "pokemonNumber": 87,
+        "evolutionFamily": [
+            "Seel",
+            "Dewgong"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/87/mainImage.png",
+        "defense": 80,
+        "speed": 70,
+        "pokemonType": [
+            "Water",
+            "Ice"
+        ],
+        "attack": 70,
+        "healthPoints": 90,
+        "devolution": "Seel"
+    },
+    {
+        "pokemonName": "Oddish",
+        "evolution": "Gloom",
+        "pokemonNumber": 43,
+        "evolutionFamily": [
+            "Oddish",
+            "Gloom",
+            "Bellossom"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/43/mainImage.png",
+        "defense": 55,
+        "speed": 30,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 50,
+        "healthPoints": 45,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Moltres",
+        "evolution": "",
+        "pokemonNumber": 146,
+        "evolutionFamily": [
+            "Moltres"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/146/mainImage.png",
+        "defense": 90,
+        "speed": 90,
+        "pokemonType": [
+            "Fire",
+            "Flying"
+        ],
+        "attack": 100,
+        "healthPoints": 90,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Charmeleon",
+        "evolution": "Charizard",
+        "pokemonNumber": 5,
+        "evolutionFamily": [
+            "Charmander",
+            "Charmeleon",
+            "Charizard"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/5/mainImage.png",
+        "defense": 58,
+        "speed": 80,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 64,
+        "healthPoints": 58,
+        "devolution": "Charmander"
+    },
+    {
+        "pokemonName": "Fearow",
+        "evolution": "",
+        "pokemonNumber": 22,
+        "evolutionFamily": [
+            "Spearow",
+            "Fearow"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/22/mainImage.png",
+        "defense": 65,
+        "speed": 100,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 90,
+        "healthPoints": 65,
+        "devolution": "Spearow"
+    },
+    {
+        "pokemonName": "Hitmonchan",
+        "evolution": "",
+        "pokemonNumber": 107,
+        "evolutionFamily": [
+            "Tyrogue",
+            "Hitmonchan"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/107/mainImage.png",
+        "defense": 79,
+        "speed": 76,
+        "pokemonType": [
+            "Fighting"
+        ],
+        "attack": 105,
+        "healthPoints": 50,
+        "devolution": "Tyrogue"
+    },
+    {
+        "pokemonName": "Machamp",
+        "evolution": "",
+        "pokemonNumber": 68,
+        "evolutionFamily": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/68/mainImage.png",
+        "defense": 80,
+        "speed": 55,
+        "pokemonType": [
+            "Fighting"
+        ],
+        "attack": 130,
+        "healthPoints": 90,
+        "devolution": "Machoke"
+    },
+    {
+        "pokemonName": "Shellder",
+        "evolution": "Cloyster",
+        "pokemonNumber": 90,
+        "evolutionFamily": [
+            "Shellder",
+            "Cloyster"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/90/mainImage.png",
+        "defense": 100,
+        "speed": 40,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 65,
+        "healthPoints": 30,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Nidoran\u2640",
+        "evolution": "Nidorina",
+        "pokemonNumber": 29,
+        "evolutionFamily": [
+            "Nidoran\u2640",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/29/mainImage.png",
+        "defense": 52,
+        "speed": 41,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 47,
+        "healthPoints": 55,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Arbok",
+        "evolution": "",
+        "pokemonNumber": 24,
+        "evolutionFamily": [
+            "Ekans",
+            "Arbok"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/24/mainImage.png",
+        "defense": 69,
+        "speed": 80,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 95,
+        "healthPoints": 60,
+        "devolution": "Ekans"
+    },
+    {
+        "pokemonName": "Farfetch'd",
+        "evolution": "Sirfetch'd",
+        "pokemonNumber": 83,
+        "evolutionFamily": [
+            "Farfetch'd",
+            "Sirfetch'd"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/83/mainImage.png",
+        "defense": 55,
+        "speed": 60,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 90,
+        "healthPoints": 52,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Ekans",
+        "evolution": "Arbok",
+        "pokemonNumber": 23,
+        "evolutionFamily": [
+            "Ekans",
+            "Arbok"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/23/mainImage.png",
+        "defense": 44,
+        "speed": 55,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 60,
+        "healthPoints": 35,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Nidorina",
+        "evolution": "Nidoqueen",
+        "pokemonNumber": 30,
+        "evolutionFamily": [
+            "Nidoran\u2640",
+            "Nidorina",
+            "Nidoqueen"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/30/mainImage.png",
+        "defense": 67,
+        "speed": 56,
+        "pokemonType": [
+            "Poison"
+        ],
+        "attack": 62,
+        "healthPoints": 70,
+        "devolution": "Nidoran\u2640"
+    },
+    {
+        "pokemonName": "Beedrill",
+        "evolution": "",
+        "pokemonNumber": 15,
+        "evolutionFamily": [
+            "Weedle",
+            "Kakuna",
+            "Beedrill"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/15/mainImage.png",
+        "defense": 40,
+        "speed": 75,
+        "pokemonType": [
+            "Bug",
+            "Poison"
+        ],
+        "attack": 90,
+        "healthPoints": 65,
+        "devolution": "Kakuna"
+    },
+    {
+        "pokemonName": "Magmar",
+        "evolution": "Magmortar",
+        "pokemonNumber": 126,
+        "evolutionFamily": [
+            "Magby",
+            "Magmar",
+            "Magmortar"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/126/mainImage.png",
+        "defense": 57,
+        "speed": 93,
+        "pokemonType": [
+            "Fire"
+        ],
+        "attack": 95,
+        "healthPoints": 65,
+        "devolution": "Magby"
+    },
+    {
+        "pokemonName": "Horsea",
+        "evolution": "Seadra",
+        "pokemonNumber": 116,
+        "evolutionFamily": [
+            "Horsea",
+            "Seadra",
+            "Kingdra"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/116/mainImage.png",
+        "defense": 70,
+        "speed": 60,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 40,
+        "healthPoints": 30,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Sandslash",
+        "evolution": "",
+        "pokemonNumber": 28,
+        "evolutionFamily": [
+            "Sandshrew",
+            "Sandslash"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/28/mainImage.png",
+        "defense": 110,
+        "speed": 65,
+        "pokemonType": [
+            "Ground"
+        ],
+        "attack": 100,
+        "healthPoints": 75,
+        "devolution": "Sandshrew"
+    },
+    {
+        "pokemonName": "Machoke",
+        "evolution": "Machamp",
+        "pokemonNumber": 67,
+        "evolutionFamily": [
+            "Machop",
+            "Machoke",
+            "Machamp"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/67/mainImage.png",
+        "defense": 70,
+        "speed": 45,
+        "pokemonType": [
+            "Fighting"
+        ],
+        "attack": 100,
+        "healthPoints": 80,
+        "devolution": "Machop"
+    },
+    {
+        "pokemonName": "Metapod",
+        "evolution": "Butterfree",
+        "pokemonNumber": 11,
+        "evolutionFamily": [
+            "Caterpie",
+            "Metapod",
+            "Butterfree"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/11/mainImage.png",
+        "defense": 55,
+        "speed": 30,
+        "pokemonType": [
+            "Bug"
+        ],
+        "attack": 20,
+        "healthPoints": 50,
+        "devolution": "Caterpie"
+    },
+    {
+        "pokemonName": "Cloyster",
+        "evolution": "",
+        "pokemonNumber": 91,
+        "evolutionFamily": [
+            "Shellder",
+            "Cloyster"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/91/mainImage.png",
+        "defense": 180,
+        "speed": 70,
+        "pokemonType": [
+            "Water",
+            "Ice"
+        ],
+        "attack": 95,
+        "healthPoints": 50,
+        "devolution": "Shellder"
+    },
+    {
+        "pokemonName": "Doduo",
+        "evolution": "Dodrio",
+        "pokemonNumber": 84,
+        "evolutionFamily": [
+            "Doduo",
+            "Dodrio"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/84/mainImage.png",
+        "defense": 45,
+        "speed": 75,
+        "pokemonType": [
+            "Normal",
+            "Flying"
+        ],
+        "attack": 85,
+        "healthPoints": 35,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Gengar",
+        "evolution": "",
+        "pokemonNumber": 94,
+        "evolutionFamily": [
+            "Gastly",
+            "Haunter",
+            "Gengar"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/94/mainImage.png",
+        "defense": 60,
+        "speed": 110,
+        "pokemonType": [
+            "Ghost",
+            "Poison"
+        ],
+        "attack": 65,
+        "healthPoints": 60,
+        "devolution": "Haunter"
+    },
+    {
+        "pokemonName": "Kabuto",
+        "evolution": "Kabutops",
+        "pokemonNumber": 140,
+        "evolutionFamily": [
+            "Kabuto",
+            "Kabutops"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/140/mainImage.png",
+        "defense": 90,
+        "speed": 55,
+        "pokemonType": [
+            "Rock",
+            "Water"
+        ],
+        "attack": 80,
+        "healthPoints": 30,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Primeape",
+        "evolution": "",
+        "pokemonNumber": 57,
+        "evolutionFamily": [
+            "Mankey",
+            "Primeape"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/57/mainImage.png",
+        "defense": 60,
+        "speed": 95,
+        "pokemonType": [
+            "Fighting"
+        ],
+        "attack": 105,
+        "healthPoints": 65,
+        "devolution": "Mankey"
+    },
+    {
+        "pokemonName": "Poliwag",
+        "evolution": "Poliwhirl",
+        "pokemonNumber": 60,
+        "evolutionFamily": [
+            "Poliwag",
+            "Poliwhirl",
+            "Politoed"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/60/mainImage.png",
+        "defense": 40,
+        "speed": 90,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 50,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Venonat",
+        "evolution": "Venomoth",
+        "pokemonNumber": 48,
+        "evolutionFamily": [
+            "Venonat",
+            "Venomoth"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/48/mainImage.png",
+        "defense": 50,
+        "speed": 45,
+        "pokemonType": [
+            "Bug",
+            "Poison"
+        ],
+        "attack": 55,
+        "healthPoints": 60,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Geodude",
+        "evolution": "Graveler",
+        "pokemonNumber": 74,
+        "evolutionFamily": [
+            "Geodude",
+            "Graveler",
+            "Golem"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/74/mainImage.png",
+        "defense": 100,
+        "speed": 20,
+        "pokemonType": [
+            "Rock",
+            "Ground"
+        ],
+        "attack": 80,
+        "healthPoints": 40,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Weepinbell",
+        "evolution": "Victreebel",
+        "pokemonNumber": 70,
+        "evolutionFamily": [
+            "Bellsprout",
+            "Weepinbell",
+            "Victreebel"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/70/mainImage.png",
+        "defense": 50,
+        "speed": 55,
+        "pokemonType": [
+            "Grass",
+            "Poison"
+        ],
+        "attack": 90,
+        "healthPoints": 65,
+        "devolution": "Bellsprout"
+    },
+    {
+        "pokemonName": "Magikarp",
+        "evolution": "Gyarados",
+        "pokemonNumber": 129,
+        "evolutionFamily": [
+            "Magikarp",
+            "Gyarados"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/129/mainImage.png",
+        "defense": 55,
+        "speed": 80,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 10,
+        "healthPoints": 20,
+        "devolution": ""
+    },
+    {
+        "pokemonName": "Kingler",
+        "evolution": "",
+        "pokemonNumber": 99,
+        "evolutionFamily": [
+            "Krabby",
+            "Kingler"
+        ],
+        "mainImage": "https://pokemon-aub-awe-workshop.s3.eu-west-2.amazonaws.com/99/mainImage.png",
+        "defense": 115,
+        "speed": 75,
+        "pokemonType": [
+            "Water"
+        ],
+        "attack": 130,
+        "healthPoints": 55,
+        "devolution": "Krabby"
     }
-}
+]
